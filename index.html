@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GL West Star Dubai</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>GL West Star Dubai</h1>
+    </header>
+
+    <div class="container" id="login-container">
+        <h2>Log in</h2>
+        <button onclick="microsoftLogin()">Login with Microsoft O365</button>
+    </div>
+
+    <div class="container" id="date-container" style="display: none;">
+        <h2>Select Date Range</h2>
+        <form id="date-form">
+            <div class="form-group">
+                <label for="from-date">From Date:</label>
+                <input type="date" id="from-date" name="from-date" required>
+            </div>
+            <div class="form-group">
+                <label for="to-date">To Date:</label>
+                <input type="date" id="to-date" name="to-date" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
